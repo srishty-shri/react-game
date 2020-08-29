@@ -1,5 +1,32 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Basic Design Of the APP
+
+    We have a provider component which provides Player position,Goal position, total wins,
+    last 5 player spostion state and the functions to change the state.
+
+    The basic 3 component of the App are 
+    1. Game Board
+    2. Score Board
+    3. Action Area
+
+    The Game Board again has 2 child components : Player and Goal
+    The total game logic is handled by this component and last 6 states are maintained too in
+    prevState array.
+    We are storing 6 player states beacause the end one would be current state and player
+    needs to go back to last 5.
+
+    Tha Score Board shows the total wins.
+
+    The Action Board handles the undo function and updates the stored states by poping the last 
+    entry in prevState array.
+
+    There are a lot of comments added to make you understand the code easier.
+    Hope that helps.
+    Thanks!
+    
+
 ## Available Scripts
 
 In the project directory, you can run:
