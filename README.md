@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Basic Design Of the APP
 
     We have a provider component which provides Player position,Goal position, total wins,
-    last 5 player spostion state and the functions to change the state.
+    last 5 player position state and the functions to change the state.
 
     The basic 3 component of the App are 
     1. Game Board
